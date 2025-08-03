@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "909293005697",
+    "firebase_url": "https://aduino-test-e45a0-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "aduino-test-e45a0",
+    "storage_bucket": "aduino-test-e45a0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:909293005697:android:5f7d447959449299b71680",
+        "android_client_info": {
+          "package_name": "com.example.aiotap_test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "909293005697-db86n24usld9euu5mhb97115e33dt2vh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeb0kv67JpXGj7Bzrjhh_AbcDN0bRwfJw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "909293005697-db86n24usld9euu5mhb97115e33dt2vh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

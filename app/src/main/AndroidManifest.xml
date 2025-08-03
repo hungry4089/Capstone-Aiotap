@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!--  알림 권한 추가 (Android 13 이상용) -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <!--  백업-->
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AIOTapTest"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AIOTapTest">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--콘센트 제어-->
+        <activity
+            android:name=".Power1Activity"
+            android:theme="@style/Theme.AIOTapTest" />
+        <activity
+            android:name=".Power2Activity"
+            android:theme="@style/Theme.AIOTapTest" />
+        <activity
+            android:name=".Power3Activity"
+            android:theme="@style/Theme.AIOTapTest" />
+        <activity
+            android:name=".Power4Activity"
+            android:theme="@style/Theme.AIOTapTest" />
+        <!--  메시지 서비스 등록 -->
+        <service
+            android:name=".MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+<!--        알람 수신기 등록...?-->
+        <receiver
+            android:name=".AlarmReceiver"
+            android:exported="false"/>
+    </application>
+
+</manifest>

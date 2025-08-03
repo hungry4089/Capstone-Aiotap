@@ -1,0 +1,40 @@
+<resources>
+<!--    번역을 쉽게 하기 위한 텍스트 집합-->
+    <string name="app_name">AIoTap</string>
+    <string name="menu_home">AIoTap</string>">
+    <string name="power_concent1">콘센트 1</string>
+    <string name="power_concent2">콘센트 2</string>
+    <string name="power_concent3">콘센트 3</string>
+    <string name="power_concent4">콘센트 4</string>
+    <string name="estimated_power_cost">이번달 예상 전기요금</string>
+    <string name="saved_standby_power">절약된 대기전력</string>
+    <string name="pre_cost">%d원</string>
+    <string name="reducepower">%d원</string>
+    <string name="OnOff">전원</string>
+    <string name="auto_off">대기전력 자동 차단</string>
+    <string name="realtime_use">실시간 사용(분)</string>
+    <string name="acc_use">한달 누적 사용</string>
+    <string name="out_count_num">대기전력 차단 횟수</string>
+    <string name="power">전력</string>
+    <string name="cost">요금</string>
+    <string name="out_count1">%d회</string>
+    <string name="real_power1">%.2fw</string>
+    <string name="real_cost1">%.2f원</string>
+    <string name="acc_power1">%dw</string>
+    <string name="acc_cost1">%d원</string>
+    <string name="out_count2">%d회</string>
+    <string name="real_power2">%.2fw</string>
+    <string name="real_cost2">%.2f원</string>
+    <string name="acc_power2">%dw</string>
+    <string name="acc_cost2">%d원</string>
+    <string name="out_count3">%d회</string>
+    <string name="real_power3">%.2fw</string>
+    <string name="real_cost3">%.2f원</string>
+    <string name="acc_power3">%dw</string>
+    <string name="acc_cost3">%d원</string>
+    <string name="out_count4">%d회</string>
+    <string name="real_power4">%.2fw</string>
+    <string name="real_cost4">%.2f원</string>
+    <string name="acc_power4">%dw</string>
+    <string name="acc_cost4">%d원</string>
+</resources>
